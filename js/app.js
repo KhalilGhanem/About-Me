@@ -47,4 +47,5 @@ if(vgames==='yes' || vgames ==='y'){
 }
 let userName=prompt('what is your name ?');
 document.write('<p>Welcome to my site '+ userName+'</p>');
+document.write('<p>I want to thank you for your support  '+ userName+' by visiting my site</p>');
 
