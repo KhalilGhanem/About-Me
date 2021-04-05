@@ -45,5 +45,6 @@ if(vgames==='yes' || vgames ==='y'){
 }else{
   alert('please only choose (yer or no) ');
 }
-
+let userName=prompt('what is your name ?');
+document.write('<p>Welcome to my site '+ userName+'</p>');
 
