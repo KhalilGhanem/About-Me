@@ -110,6 +110,7 @@ for(let i=0;i<=6;i++){
 }
 alert('your score is '+score+' out of 7');
 
+// try1
 // for(let i=0;i<=6;i++){
 //   let favPlayers=prompt('can you guess one of my favorite football players ?');
 //   favPlayers=favPlayers.toLowerCase();
