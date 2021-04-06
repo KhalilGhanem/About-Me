@@ -91,11 +91,14 @@ for(let i=0;i<=4;i++){
   }
 }
 
-
+let playerName='';
 let Players=['marcelo','lukaku','ramos','modric'];
 for(let i=0;i<=6;i++){
   if(i===6){
-    alert('my favorite football players are '+Players[0]+' '+Players[1]+' '+Players[2]+' '+Players[3]);
+    for(let x=0;x,x<Players.length;x++){
+      playerName=playerName+' '+Players[x];
+    }
+    alert('my favorite football players are '+playerName);
     break;
   }
   let favPlayers=prompt('can you guess one of my favorite football players ?');
@@ -124,6 +127,7 @@ alert('your score is '+score+' out of 7');
 //   } else{
 //     alert('please try again');
 //   }
-// }
+//  alert('my favorite football players are '+Players[0]+' '+Players[1]+' '+Players[2]+' '+Players[3]);
+//break;}
 
 
