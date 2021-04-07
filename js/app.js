@@ -1,6 +1,8 @@
 'use strict';
 // eslint-disable-next-line no-unused-vars
 let score=0;
+
+function question1(){
 let club=prompt('Do you think I am a Real Madrid fan ?');
 club=club.toLowerCase();
 if(club==='yes' || club ==='y'){
@@ -14,6 +16,9 @@ if(club==='yes' || club ==='y'){
   // console.log('please only choose (yer or no)');
   alert('please only choose (yer or no) ');
 }
+}
+question1();
+function question2(){
 let movie=prompt('Do you think I like action movies ?');
 movie=movie.toLowerCase();
 if(movie==='yes' || movie ==='y'){
@@ -27,6 +32,9 @@ if(movie==='yes' || movie ==='y'){
   // console.log('please only choose (yer or no)');
   alert('please only choose (yer or no) ');
 }
+}
+question2();
+function question3(){
 let prog=prompt('Do you think I love programming ?');
 prog=prog.toLowerCase();
 if(prog==='yes' || prog ==='y'){
@@ -40,6 +48,9 @@ if(prog==='yes' || prog ==='y'){
   // console.log('please only choose (yer or no)');
   alert('please only choose (yer or no) ');
 }
+}
+question3();
+function question4(){
 let food=prompt('Do you think I hate maqluba ?');
 food=food.toLowerCase();
 if(food==='yes' || food ==='y'){
@@ -53,6 +64,9 @@ if(food==='yes' || food ==='y'){
   // console.log('please only choose (yer or no)');
   alert('please only choose (yer or no) ');
 }
+}
+question4();
+function question5(){
 let vgames=prompt('Do you think I like video games ?');
 vgames=vgames.toLowerCase();
 if(vgames==='yes' || vgames ==='y'){
@@ -66,11 +80,14 @@ if(vgames==='yes' || vgames ==='y'){
   //console.log('please only choose (yer or no)');
   alert('please only choose (yer or no) ');
 }
+}
+question5();
+
 let userName=prompt('what is your name ?');
 document.write('<p>Welcome to my site '+ userName+'</p>');
 document.write('<p>I want to thank you for your support  '+ userName+' by visiting my site</p>');
 
-
+function question6(){
 for(let i=0;i<=4;i++){
   if(i===4){
     alert('You have used all your attempts the right answer is 7');
@@ -90,7 +107,9 @@ for(let i=0;i<=4;i++){
     alert('please write a number');
   }
 }
+} question6();
 
+function question7(){
 let playerName='';
 let Players=['marcelo','lukaku','ramos','modric'];
 for(let i=0;i<=6;i++){
@@ -111,6 +130,9 @@ for(let i=0;i<=6;i++){
     alert('try again');
   }
 }
+}
+question7();
+
 alert('your score is '+score+' out of 7');
 
 // try1
